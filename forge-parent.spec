@@ -1,6 +1,6 @@
 Name:           forge-parent
 Version:        31
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Sonatype Forge Parent Pom
 License:        ASL 2.0
 URL:            https://docs.sonatype.org/display/FORGE/Index
@@ -30,6 +30,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 31-2
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 5-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
